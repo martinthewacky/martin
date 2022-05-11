@@ -2,6 +2,10 @@
   --black: #1d1d1d;
   --white: #fdfdfd;
   --plurple: #6566f1;
+  --display-font: "Manrope", sans-serif;
+  --prose-font: "Newsreader", serif;
+  --simple-font: "Comfortaa", sans-serif;
+  --code-font: "Cascadia Code", monospace;
 }
 
 * {
@@ -10,6 +14,8 @@
 
 html,
 body {
+  color: var(--white);
+  background: var(--black);
   padding: 0;
 }
 
