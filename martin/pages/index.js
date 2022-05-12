@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Image from "next/image";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <Head>
         <title>Martin Matovu</title>
       </Head>
-    </div>
+    </Layout>
   );
 }
